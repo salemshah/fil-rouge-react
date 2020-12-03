@@ -1,0 +1,92 @@
+@import "color.css";
+@import "font.css";
+
+.header {
+    background: var(--header-bg-color);
+    height: 95px;
+    color: var(--text-light);
+}
+
+form {
+    position: relative;
+    width: 400px;
+    height: 33px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    display: table-cell;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;;
+    color: var(--text-darck);
+    line-height: 15px;
+    vert-align: middle;
+    outline: 0;
+    border: 0;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 0 20px;
+
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    color: #07051a;
+    text-align: center;
+    font-size: 1em;
+    transition: all 1s;
+}
+
+form:hover {
+    cursor: pointer;
+}
+
+form:hover .fa {
+    background: var(--color-purpal-dark);
+    color: white;
+}
+
+.header-icon {
+    font-size: 1.8rem;
+    color: var(--hearder-icon-color);
+    cursor: pointer;
+}
+
+.header-icon:hover {
+    color: var(--icon-hover);
+    transition: all, 1s;
+}
+
+.text-icon {
+    font-size: .7rem;
+}
+
+/*----- top header -----*/
+
+.top-header {
+    background: var(--header-bg-color);
+}
+
+.top-header-content {
+    color: var(--text-light);
+    height: 40px;
+}
+
+
+.h-line {
+    height: 1px;
+    border-bottom: 1px solid var(--border-first);
+}
+
+
